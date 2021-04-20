@@ -1,0 +1,9 @@
+.hero_section{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_bio{
+    width: 50%;
+}

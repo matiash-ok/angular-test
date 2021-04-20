@@ -1,0 +1,22 @@
+.hero-showcase{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-style:solid;
+    width: min-content;
+}
+.heroes-showcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 2.5%;
+    margin: 2%;
+}
+
+.hero_bio{
+    padding: 5%;
+}
+button{margin: 5%;
+padding: 5%;}

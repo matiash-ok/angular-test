@@ -1,0 +1,11 @@
+.heroes-showcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 2.5%;
+    margin: 2%;
+}
+button{margin: 5%;
+padding: 5%;}

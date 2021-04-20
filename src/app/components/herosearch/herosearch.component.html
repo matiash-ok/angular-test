@@ -1,0 +1,4 @@
+<section class="heroes-showcase">
+     <div *ngIf="heroes.length == 0"><h3>Tu busqueda de {{termino}}no tiene resultados</h3></div>
+     <app-hero-tarjeta *ngFor="let heroe of heroes;let i=index" [heroe]="heroe"></app-hero-tarjeta>
+</section>

@@ -1,0 +1,15 @@
+<nav class="navbar">
+    <h1><a [routerLink]="['home']" >LOVIN IT </a></h1>
+    <ul class="menu">
+        <li ><a routerLinkActive="active" [routerLink]="['home']" >Home</a></li>
+        <li ><a routerLinkActive="active" [routerLink]="['heroes']"  >Heroes</a></li>
+        <li ><a routerLinkActive="active" [routerLink]="['about']"  >About</a></li>
+    </ul>
+    
+    <div>
+    <input type="text" placeholder="Buscar Hero" (keyup.enter)="buscarhero(buscartexto.value)" #buscartexto >
+    <button (click)="buscarhero(buscartexto.value)">Buscar</button>
+    </div>
+    
+</nav>
+

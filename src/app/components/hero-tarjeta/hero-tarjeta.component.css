@@ -1,0 +1,12 @@
+.hero-showcase{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-style:solid;
+    width: min-content;
+}
+.hero_bio{
+    padding: 5%;
+}
+button{margin: 5%;
+    padding: 5%;}
